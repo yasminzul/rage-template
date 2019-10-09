@@ -1,0 +1,25 @@
+{
+  "name": "rage-template-package",
+  "version": "1.0.0",
+  "description": "rage template",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasminzul/rage-template.git"
+  },
+  "keywords": [
+    "empty"
+  ],
+  "author": "rage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasminzul/rage-template/issues"
+  },
+  "homepage": "https://github.com/yasminzul/rage-template#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
