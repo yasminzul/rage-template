@@ -1,0 +1,29 @@
+@media only screen and (orientation:portrait){
+
+
+}
+
+/*------------------------Landscape desktop-----------------------------*/
+
+
+
+@media only screen and (orientation:landscape) and (min-width : 800px){    
+
+
+}
+
+
+/*------------------------Landscape mobile-----------------------------*/
+
+
+
+@media only screen and (orientation:landscape) and (max-width : 800px){    
+
+
+}
+
+body
+{
+    color: #fff;
+    background-color: #090909;
+}
