@@ -152,6 +152,27 @@ img {
     left: 0;
 }
 
+/*credits*/
+
+.credits
+{
+  text-align: center;
+}
+
+.credits span
+{
+  display: block;
+}
+
+.share
+{
+  text-align: center;
+}
+
+.share span
+{
+  display: block;
+}
 
 /*footer*/
 
@@ -177,8 +198,8 @@ img {
 /*------------------------mobile-----------------------------*/
 
 @media only screen and (max-width : 600px){
-	
-	
+
+
 
 	p {
 		font-size: 1.25em;
