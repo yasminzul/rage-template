@@ -1,7 +1,163 @@
 body
 {
+
+}
+
+p
+{
+
+}
+
+h1
+{
+
+}
+
+h2
+{
+
+}
+
+h3
+{
+
+}
+
+h4
+{
+
+}
+
+.section
+{
+
+}
+
+
+#footer
+{
+    background-image: url(gfx/TLS-web-BG.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 5vh 15vw;
+}
+
+
+ #credits
+{
+
+}
+
+#credits h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 1vw;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: underline;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+     margin: 4vh;
+}
+
+#credits p
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 1vw;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 3.5vh;
+}
+
+
+#credits p span
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 1vw;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a50000;
+    text-transform: capitalize;
+    display: block;
+}
+
+
+.share
+{
+    text-align: center;
+    margin: 8vh;
+}
+
+.share b
+{
+    font-family: 'Playfair Display', serif;
+    display: block;
+    color: #000;
+    font-size: 1.5vw;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
+}
+
+
+.share a i
+{
+    height: 4vh;
+    width: 4vh;
+    padding: 1vh;
+    margin: 1vh 1vw;
+    font-size: 2vh;
     color: #fff;
-    background-color: #090909;
+    background-color: #a50000;
+    border-radius: 3vh;
+}
+
+
+.legal
+{
+    color: #000;
+    font-size: 1.7vh;
+    text-align: center;
+}
+
+.legal a
+{
+    color: #000;
+    font-size: 1.7vh;
+}
+
+.branding
+{
+    margin-top: 1.85vh;
+    text-align: center;
+}
+
+.branding a
+{
+    margin-right: 2.25vw;
+    margin-left: 2.25vw;
+    font-size: 2.5vh;
+    color: #000;
+}
+
+.branding img
+{
+    width: 6vw;
 }
 
 
@@ -17,5 +173,130 @@ body
 
 @media only screen and (max-width : 600px){
 
+
+
+  #footer
+  {
+      height: 100vh;
+      width: 100vw;
+       padding: 15vh 5vw;
+  }
+
+
+   #credits
+  {
+      margin: 0;
+      padding: 0 0 5vh 0;
+  }
+
+  #credits h1
+  {
+      font-family: 'EB Garamond', serif;
+      font-size: 2vh;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: underline;
+      font-stretch: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      text-transform: uppercase;
+       margin: 4vh;
+  }
+
+  #credits p
+  {
+      font-family: 'EB Garamond', serif;
+      font-size: 2vh;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      text-transform: uppercase;
+      margin: 1.5vh;
+  }
+
+  #credits p a
+  {
+
+      color: #000000;
+
+  }
+
+  #credits p span
+  {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.9vh;
+      font-weight: 500;
+      font-style: italic;
+      font-stretch: normal;
+      line-height: 1.53;
+      letter-spacing: normal;
+      text-align: center;
+      color: #e00000;
+      text-transform: capitalize;
+      display: block;
+  }
+
+
+      .share
+  {
+      text-align: center;
+      margin: 5vh;
+  }
+
+  .share b
+  {
+      font-family: 'Spectral', serif;
+      font-size: 2.5vh;
+      text-transform: uppercase;
+      display: block;
+      color: #000;
+      margin-bottom: 3vh;
+  }
+
+
+  .share a
+  {
+      margin: 1vh 3.4vw;
+      font-size: 3.5vh;
+      color: #e00;
+  }
+
+
+  .legal
+  {
+      color: #000;
+      font-size: 1.7vh;
+      text-align: center;
+  }
+
+  .legal a
+  {
+      color: #000;
+      font-size: 1.7vh;
+  }
+
+  .branding
+  {
+      margin-top: 1.85vh;
+      text-align: center;
+  }
+
+  .branding img
+  {
+      width: 17%;
+  }
+
+  .branding a
+  {
+      margin-right: 4.5vw;
+      font-size: 2.7vh;
+      color: #000;
+  }
 
 }
