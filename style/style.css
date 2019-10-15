@@ -123,15 +123,38 @@ img {
   position: relative; }
 
 .photo-caption {
-  width: 100%;
-  padding: 1px;
-  position: absolute;
+    width: 100%;
+    padding: 1px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    background: black;
+    opacity: 0.7;
+    bottom: 0;
+    left: 0;
+}
+
+/*credits*/
+
+.credits
+{
   text-align: center;
-  color: #fff;
-  background: black;
-  opacity: 0.7;
-  bottom: 0;
-  left: 0; }
+}
+
+.credits span
+{
+  display: block;
+}
+
+.share
+{
+  text-align: center;
+}
+
+.share span
+{
+  display: block;
+}
 
 /*footer*/
 .footer {
@@ -147,32 +170,52 @@ img {
 
 /*------------------------tablet-----------------------------*/
 /*------------------------mobile-----------------------------*/
-@media only screen and (max-width: 600px) {
-  p {
-    font-size: 1.25em; }
-  .chapter {
-    width: 90%; }
-  /*nav bar*/
-  .topnav a {
-    display: none;
-    padding: 8px 16px; }
-  .topnav a.icon {
-    display: block;
-    float: right; }
-  .nav-content.responsive {
-    position: relative;
-    float: left;
-    width: 100%; }
-  .nav-content.responsive a.icon {
-    position: absolute;
-    top: 0;
-    right: 0; }
-  .nav-content.responsive a {
-    display: block;
-    float: none;
-    text-align: left; }
-  .nav-content.responsive a:hover {
-    background: #da332e;
-    color: #fff; }
-  .creative img {
-    object-fit: cover; } }
+
+@media only screen and (max-width : 600px){
+
+
+
+	p {
+		font-size: 1.25em;
+	}
+
+	.chapter {
+		width: 90%;
+	}
+
+/*nav bar*/
+
+	.topnav a {
+        display: none;
+        padding: 8px 16px;
+    }
+
+    .topnav a.icon {
+        display: block;
+        float: right;
+    }
+
+    .nav-content.responsive {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+    .nav-content.responsive a.icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .nav-content.responsive a {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+    .nav-content.responsive a:hover {
+    	background: #da332e;
+    	color: #fff;
+    }
+
+    .creative img {
+    	object-fit: cover;
+    }
+}
